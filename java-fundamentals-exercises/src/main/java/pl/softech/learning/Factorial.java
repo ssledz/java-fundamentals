@@ -21,27 +21,20 @@ package pl.softech.learning;
  */
 public class Factorial {
 
+  /**
+   * Calculate factorial of the given number
+   */
   public static long calculate(int n) {
-
-    if (n == 0) {
-      return 1;
-    }
-
-    long ret = 1;
-    for (int i = 1; i <= n; i++) {
-      ret *= i;
-    }
-
-    return ret;
+    //TODO
+    return 0;
   }
 
+  /**
+   * Same for calculate, but do this recursively
+   */
   public static long calculateRecursive(int n) {
-
-    if (n == 0) {
-      return 1;
-    }
-
-    return n * calculateRecursive(n - 1);
+    //TODO
+    return 0;
   }
 
   public static void main(String[] args) {

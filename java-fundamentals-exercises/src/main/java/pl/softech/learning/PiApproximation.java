@@ -22,15 +22,13 @@ package pl.softech.learning;
 public class PiApproximation {
 
   /**
+   * Calculate pi number with the given precision
+   * 
    * sum_0^inf (-1)^n / (2n + 1) = pi/4
    */
   public static double calculatePi(int n) {
-
-    double pi = 0;
-    for(int i = 0; i < n; i++) {
-      pi += (double)Math.pow(-1, i) / (2.0 * i + 1);
-    }
-    return 4 * pi;
+    //TODO
+    return 0;
   }
   
   public static void main(String[] args) {

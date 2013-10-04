@@ -2,18 +2,17 @@ package pl.softech.learning;
 
 public class PrintNumbers {
 
+  /** 
+   *  For all int numbers from the range [a, b] do the following:
+   * 
+   *  Print 'Bis' if a number is divisible by 2
+   *    or
+   *  Print 'Cis' if a number is divisible by 3
+   *    or
+   *  Print 'BisCis' if a number is divisible by 2 and 3
+   */
   public static void print(int a, int b) {
-
-    for (int i = a; i <= b; i++) {
-      if (i % 2 == 0 && i % 3 == 0) {
-        System.out.println("BisCis: " + i);
-      } else if (i % 2 == 0) {
-        System.out.println("Bis: " + i);
-      } else if (i % 3 == 0) {
-        System.out.println("Cis: " + i);
-      }
-    }
-
+    //TODO
   }
 
   public static void main(String[] args) {

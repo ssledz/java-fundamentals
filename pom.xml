@@ -11,7 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <modules>
-    <module>java-fundamentals-exercises</module>
+    <module>java-fundamentals-solutions</module>
   </modules>
   
   <build>
